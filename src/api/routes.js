@@ -791,7 +791,7 @@ router.post('/chat/completions', async (req, res) => {
                     mappedModel,
                     qwenChatId,
                     effectiveParentId,
-                    files // ← ПЕРЕДАЁМ FILES,
+                    files, // ← ПЕРЕДАЁМ FILES,
                     combinedTools,
                     tool_choice,
                     systemMessage,
